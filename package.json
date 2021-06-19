@@ -1,0 +1,36 @@
+{
+  "name": "binance-price-alert",
+  "version": "1.0.0",
+  "description": "Binance price alert with node",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guitmello/binance-price-alert.git"
+  },
+  "keywords": [
+    "binance",
+    "price",
+    "alert",
+    "node",
+    "api",
+    "crypto"
+  ],
+  "author": "Guilherme de Mello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guitmello/binance-price-alert/issues"
+  },
+  "homepage": "https://github.com/guitmello/binance-price-alert#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "nexmo": "^2.9.1",
+    "nodemon": "^2.0.7",
+    "ws": "^7.4.6"
+  }
+}
